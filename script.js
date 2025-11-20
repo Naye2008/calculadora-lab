@@ -1,27 +1,20 @@
-function sumar(x, y){
-    return x + y;
+let numero1= parseFloat("5");
+let numero2= parseFloat("5");
+
+function sumar(numero1, numero2){
+    return numero1 + numero2;
 }
 
-function resta(x, y){
-    return x - y;
+function resta(numero1, numero2){
+    return numero1 - numero2;
 }
 
-function multiplicación(x, y){
-    return x * y;
+function multiplicacion(numero1, numero2){
+    return numero1 * numero2;
 }
 
-function division(x, y){
-    return x / y;
+function division(numero1, numero2){
+    return numero1 / numero2;
 }
-
-let resultado = sumar(5,5);
+let resultado = sumar(numero1, numero2);
 console.log("resultado de suma" + " " + resultado);
-
-resultado = resta(5,5);
-console.log("resultado de resta" + " " + resultado);
-
-resultado = multiplicación(5,5);
-console.log("resultado de multiplicacion" + " " + resultado);
-
-resultado = division(5,5);
-console.log("resultado de multiplicación" + " " + resultado);
